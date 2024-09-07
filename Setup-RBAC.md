@@ -7,7 +7,7 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: jenkins
+  name: regtech
   namespace: webapps
 ```
 
@@ -71,7 +71,7 @@ roleRef:
 subjects:
 - namespace: webapps 
   kind: ServiceAccount
-  name: jenkins 
+  name: regtech 
 ```
 ### Create Cluster role & bind to Service Account
 ```yaml

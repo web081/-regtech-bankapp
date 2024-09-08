@@ -95,7 +95,7 @@ GDPR & PCI-DSS: Ensures the application is correctly deployed and configured in 
 13. Setup Prometheus for Monitoring
 Integrates Prometheus for monitoring application metrics and Kubernetes cluster health.
  Steps:
-- Prometheus is deployed within the Kubernetes cluster and configured to scrape application metrics.
+- Prometheus is deployed within the Kubernetes cluster or using an IP Address and configured to scrape application metrics.
 The application exposes necessary metrics for monitoring (e.g., response time, CPU usage, memory consumption).
 Compliance:
 GDPR & PCI-DSS: Monitoring is done to ensure the infrastructure and application remain secure, without exposing sensitive data. Prometheus should be secured to prevent unauthorized access.

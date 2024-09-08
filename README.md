@@ -1,6 +1,8 @@
 # RegTech Bank App Deployment Pipeline
 - This guide outlines the Jenkins pipeline stages used to deploy the RegTech Bank App. The pipeline automates the deployment process from code checkout to Kubernetes deployment verification while ensuring compliance with security standards such as GDPR and PCI-DSS.
-
+- Application deployment includes AWS EKS, EC2, Terraform, Kubernetes, Sonarqube, Nexus and Jenkins
+- Creating Kubernetes Cluster with two nodes
+- Using Terraform to Create Cluster, VPC, Security Group and IAM Role
 - Prerequisites
 Ensure the following prerequisites are met before setting up the Jenkins pipeline:
 

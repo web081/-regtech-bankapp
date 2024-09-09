@@ -4,7 +4,7 @@
 - Creating Kubernetes Cluster with two nodes
 - Using Terraform to Create Cluster, VPC, Security Group and IAM Role
 - deployment includes monitoring using Prometheus and Grafana for application performance and security insights
-## Prerequisites
+#### Prerequisites
 - Java Development Kit (JDK)
 - Docker
 - Jenkins
@@ -14,6 +14,14 @@
 - AWS Account
 - Prometheus
 - Grafana
+#### The deployment pipeline includes the following stages:
+1. **Code Checkout**: Retrieve the latest code from the Git repository.
+2. **Build and Test**: Compile the Java application and run unit tests.
+3. **Code Analysis**: Perform static code analysis using SonarQube.
+4. **Build Docker Image**: Create a Docker image of the application.
+5. **Push Docker Image to Nexus**: Store the Docker image in Nexus Repository Manager.
+6. **Deploy to Kubernetes**: Use Terraform to deploy the application to an AWS-managed Kubernetes cluster.
+ 
 #### Access to the Git repository
 SonarQube instance configured in Jenkins for code quality and security scans
 Nexus Repository for publishing artifacts

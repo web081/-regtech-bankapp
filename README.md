@@ -4,7 +4,7 @@
 - Creating Kubernetes Cluster with two nodes
 - Using Terraform to Create Cluster, VPC, Security Group and IAM Role
 - deployment includes monitoring using Prometheus and Grafana for application performance and security insights
-- Prerequisites
+## Prerequisites
 - Java Development Kit (JDK)
 - Docker
 - Jenkins

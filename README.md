@@ -14,7 +14,7 @@
 - AWS Account
 - Prometheus
 - Grafana
-#### The deployment pipeline includes the following stages:
+#### Deployment pipeline includes the following stages:
 1. **Code Checkout**: Retrieve the latest code from the Git repository.
 2. **Build and Test**: Compile the Java application and run unit tests.
 3. **Code Analysis**: Perform static code analysis using SonarQube.

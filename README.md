@@ -93,6 +93,8 @@ Compliance Focus:
 GDPR & PCI-DSS: Ensures the application is correctly deployed and configured in a secure environment. Verification of the deployment ensures that security controls are functioning as expected and that there are no configuration issues that could lead to data breaches or non-compliance.
 ##### Monitoring with Prometheus and Grafana
 
+![Grafana Monitoring](./terraform/moni.png)
+
 13. Setup Prometheus for Monitoring
 Integrates Prometheus for monitoring application metrics and Kubernetes cluster health.
  Steps:

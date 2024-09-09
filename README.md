@@ -92,19 +92,18 @@ Purpose: Verifies the deployment by checking the status of the Kubernetes pods a
 Compliance Focus:
 GDPR & PCI-DSS: Ensures the application is correctly deployed and configured in a secure environment. Verification of the deployment ensures that security controls are functioning as expected and that there are no configuration issues that could lead to data breaches or non-compliance.
 ##### Monitoring with Prometheus and Grafana
+- Below is a screenshot monitoring matrix of the application deployed into AWS using Prometheus and Grafana
 
 ![Grafana Monitoring](./terraform/moni.png)
 
 13. Setup Prometheus for Monitoring
 Integrates Prometheus for monitoring application metrics and Kubernetes cluster health.
- Steps:
-- Prometheus monitoring and blackbox using an IP Address and configured to scrape application metrics.
+- Prometheus monitoring and Blackbox exporter configuration to scrape application metrics.
 The application exposes necessary metrics for monitoring (e.g., response time, CPU usage, memory consumption).
 Compliance:
 GDPR & PCI-DSS: Monitoring is done to ensure the infrastructure and application remain secure, without exposing sensitive data. Prometheus should be secured to prevent unauthorized access.
 14. Grafana Dashboard for Metrics Visualization
 Description: Visualizes the metrics collected by Prometheus in Grafana dashboards.
-  Steps:
 - Grafana is set up to retrieve data from Prometheus.
 Custom dashboards are created to visualize key performance indicators (KPIs), including application health, request rates, and error rates.
 Alerts can be configured in Grafana to notify of any compliance-related incidents, such as data breaches or performance degradation.

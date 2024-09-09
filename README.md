@@ -5,16 +5,15 @@
 - Using Terraform to Create Cluster, VPC, Security Group and IAM Role
 - deployment includes monitoring using Prometheus and Grafana for application performance and security insights
 - Prerequisites
-Ensure the following prerequisites are met before setting up the Jenkins pipeline:
-
-#### Jenkins server with required plugins installed:
-- Git Plugin
-- Maven Integration Plugin
-- Trivy Scanner Plugin
-- SonarQube Plugin
-- Nexus Artifact Uploader
-- Docker Pipeline Plugin
-- Kubernetes CLI Plugin
+- Java Development Kit (JDK)
+- Docker
+- Jenkins
+- SonarQube
+- Nexus Repository Manager
+- Terraform
+- AWS Account
+- Prometheus
+- Grafana
 #### Access to the Git repository
 SonarQube instance configured in Jenkins for code quality and security scans
 Nexus Repository for publishing artifacts
